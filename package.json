@@ -1,0 +1,52 @@
+{
+  "name": "nodejs-express-restapis-mysql",
+  "version": "1.0.0",
+  "description": "CDM WEB APP",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix C:\\Users\\vien.tran\\WEB-APP\\SH-CalLAB\\clients",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "npm run build --prefix C:\\Users\\vien.tran\\WEB-APP\\SH-CalLAB\\clients",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vtran1369-git"
+  },
+  "keywords": [
+    "nodejs",
+    "restapis",
+    "mysql",
+    "tutorials",
+    "jwt",
+    "authentication"
+  ],
+  "author": "www.vientran.com",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parse": "^0.1.0",
+    "body-parser": "^1.20.2",
+    "chance": "^1.1.7",
+    "cors": "^2.8.5",
+    "dateformat": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mssql": "^10.0.2",
+    "multer": "^1.4.2",
+    "mysql2": "^2.2.5",
+    "nodemailer": "^6.9.13",
+    "nodemon": "^3.0.2",
+    "react": "^17.0.2",
+    "react-table": "^7.6.3",
+    "sequelize": "^6.33.0",
+    "sequelize-auto": "^0.8.1"
+  },
+  "devDependencies": {
+    "@types/react-router-dom": "^5.3.3",
+    "concurrently": "^8.2.2"
+  }
+}

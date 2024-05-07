@@ -1,0 +1,53 @@
+body {
+    padding: 50px;
+    font: 1em Helvetica Neue, Helvetica, Arial, sans-serif;
+  }
+  
+  .grid-style {
+    border: 1px solid rgb(111,41,97);
+    display: grid;
+    grid-template-areas:
+    "one one one two two two two"
+    "one one one two two two two"
+    "one one one two two two two"
+    "three three four four four four four";
+     /*  "one one two two two"
+      "one one two two two"
+      "three three four four four"
+      "three three four four four"; */
+    gap: 1px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(20, 30px);
+    inline-size: 1000px;
+  }
+  
+  .grid-style > * {
+    background-color:rgb(245, 240, 239);
+    border-radius: 5px;
+    padding: 3px;
+  }
+  
+  .cert-compname {
+    grid-area: one;
+  }
+  
+   img { width:400px;}
+  
+  .cert-addr {
+    grid-area: two;
+  }
+  
+  .cert-header {
+    grid-area: three;
+  }
+  
+  .cert-dateinfo {
+    grid-area: four;
+  }
+
+ 
+  
+  
+  
+  
+  
